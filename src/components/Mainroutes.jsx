@@ -11,10 +11,7 @@ const Mainroutes = () => {
   return (
     <div>
       <Routes>
-//         <Route
-//           path="/"
-//           element={userAuth ? <Tasks /> : <Navigate to="/login" />}
-//         />        
+      
        <Route path="/" element={<Tasks />} />
 
         <Route path="/login" element={<Login />} />
