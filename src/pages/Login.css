@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+.main_login_div {
+    width: 24%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin: 70px auto auto auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main_login_div>form>input {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0 0 30px;
+    border-radius: 5px;
+    width: 75%;
+}
+
+.main_login_div>form>label {
+    margin: 0px 0 0px 30px;
+    font-size: 14px;
+}
+
+.loginBtn {
+
+    margin: 40px 0 0 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.main_login_div>h3 {
+    margin: 0px 0 10px 30px;
+    padding: 15px 0 0 0;
+}
+
+.main_login_div>h1 {
+    margin: 0px 0 10px 30px;
+    padding: 5px 0 0 0;
+}
+
+.remember_me {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 95%;
+    margin: 10px auto auto auto;
+}
+
+.remember_me>label, input {
+    margin: 0 0 20px 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.remember_me>p {
+    margin: 0 0 0 100px;
+    font-size: 13px;
+    color: gray;
+}
+
+@media screen and (max-width:834px) {
+    .main_login_div {
+        width: 50%;
+        height: 350px;
+        /* border: 1px solid red; */
+        margin: 70px auto auto auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .main_login_div>form>input {
+        border: 1px solid gray;
+        padding: 10px;
+        margin: 10px 0 0 60px;
+        border-radius: 5px;
+        width: 75%;
+    }
+
+    .main_login_div>form>label {
+        margin: 0px 0 0px 60px;
+        font-size: 14px;
+    }
+
+    .loginBtn {
+
+        margin: 40px 0 0 0;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .main_login_div>h3 {
+        margin: 0px 0 10px 60px;
+        padding: 15px 0 0 0;
+    }
+
+    .main_login_div>h1 {
+        margin: 0px 0 10px 60px;
+        padding: 5px 0 0 0;
+    }
+
+    .remember_me {
+        /* border: 1px solid red; */
+        display: flex;
+        width: 80%;
+        margin: 10px auto auto auto;
+    }
+
+    .remember_me>label, input {
+        margin: 0 0 20px 15px;
+        font-size: 13px;
+        color: gray;
+    }
+
+    .remember_me>p {
+        margin: 0 0 0 100px;
+        font-size: 13px;
+        color: gray;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .main_login_div {
+        width: 75%;
+        height: 350px;
+        /* border: 1px solid red; */
+        margin: 70px auto auto auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .main_login_div>form>input {
+        border: 1px solid gray;
+        padding: 10px;
+        margin: 10px 0 0 30px;
+        border-radius: 5px;
+        width: 75%;
+    }
+
+    .main_login_div>form>label {
+        margin: 0px 0 0px 30px;
+        font-size: 14px;
+    }
+
+    .main_login_div>h3 {
+        margin: 0px 0 10px 30px;
+        padding: 15px 0 0 0;
+    }
+
+    .main_login_div>h1 {
+        margin: 0px 0 10px 30px;
+        padding: 5px 0 0 0;
+    }
+
+    .remember_me {
+        /* border: 1px solid red; */
+        display: flex;
+        width: 100%;
+        margin: 10px auto auto auto;
+    }
+
+    .remember_me>input {
+        margin: 0 -10px 20px 10px;
+        font-size: 10px;
+        color: gray;
+        
+    }
+    .remember_me >label{
+        /* border: 1px solid blue; */
+        width: 90%;
+    }
+
+    .remember_me>p {
+        margin: 0 0 0 50px;
+        font-size: 11px;
+        /* border: 1px solid blue; */
+        color: gray;
+        width: 90%;
+    }
+
+}

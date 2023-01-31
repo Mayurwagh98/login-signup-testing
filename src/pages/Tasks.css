@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+.main_task_div {
+    /* border: 1px solid red; */
+    width: 30%;
+    margin: 50px auto auto auto;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.hello_logout_div {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+.hello_logout_div>button {
+    width: 60px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: crimson;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.item_delete {
+    /* border: 1px solid blue; */
+    width: 70%;
+    margin: 10px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_delete>button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.main_task_div>h3, p, h4 {
+    margin: 0 0 0 30px;
+}
+
+.main_task_div>h3 {
+    padding: 0 0 10px 0;
+}
+
+.main_task_div>p {
+    font-size: 14px;
+}
+
+.main_task_div>h4 {
+    padding: 10px 0 0 0;
+}
+
+.task_input {
+    padding: 10px;
+    margin: 30px auto auto 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 80%;
+    color: black;
+}
+
+.add_btn {
+    margin: 20px auto auto 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:834px) {
+    .main_task_div {
+        /* border: 1px solid red; */
+        width: 50%;
+        margin: 50px auto auto auto;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+    }
+    .hello_logout_div {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+    
+    .hello_logout_div>button {
+        width: 60px;
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        color: crimson;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .item_delete {
+        /* border: 1px solid blue; */
+        width: 70%;
+        margin: 10px auto auto auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item_delete>button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .main_task_div>h3, p, h4 {
+        margin: 0 0 0 30px;
+    }
+    
+    .main_task_div>h3 {
+        padding: 0 0 10px 0;
+    }
+    
+    .main_task_div>p {
+        font-size: 14px;
+    }
+    
+    .main_task_div>h4 {
+        padding: 10px 0 0 0;
+    }
+    
+    .task_input {
+        padding: 10px;
+        margin: 30px auto auto 30px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        width: 80%;
+        color: black;
+    }
+    
+    .add_btn {
+        margin: 20px auto auto 30px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}
+@media screen and (max-width:428px) {
+    .main_task_div {
+        /* border: 1px solid red; */
+        width: 80%;
+        margin: 50px auto auto auto;
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+    }
+    .hello_logout_div {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+    
+    .hello_logout_div>button {
+        width: 60px;
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        color: crimson;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .item_delete {
+        /* border: 1px solid blue; */
+        width: 70%;
+        margin: 10px auto auto auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item_delete>button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .main_task_div>h3, p, h4 {
+        margin: 0 0 0 30px;
+    }
+    
+    .main_task_div>h3 {
+        padding: 0 0 10px 0;
+    }
+    
+    .main_task_div>p {
+        font-size: 14px;
+    }
+    
+    .main_task_div>h4 {
+        padding: 10px 0 0 0;
+    }
+    
+    .task_input {
+        padding: 10px;
+        margin: 30px auto auto 30px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        width: 80%;
+        color: black;
+    }
+    
+    .add_btn {
+        margin: 20px auto auto 30px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}

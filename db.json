@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "email": "mayur@gmail.com",
+      "username": "mayur",
+      "password": "123",
+      "tasks": [
+        "js",
+        "something",
+        "veified",
+        "add",
+        "fdgbnm"
+      ],
+      "id": 1
+    },
+    {
+      "email": "manish@gmail.com",
+      "username": "manish",
+      "password": "321",
+      "tasks": [
+        "react",
+        "redux"
+      ],
+      "id": 2
+    },
+    {
+      "email": "shiva@gmail.com",
+      "username": "shiva",
+      "password": "456",
+      "tasks": [
+        "coffee",
+        "tea"
+      ],
+      "id": 3
+    }
+  ]
+}
